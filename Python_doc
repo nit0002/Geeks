@@ -3,3 +3,8 @@
             frequency[word.lower()]=1      
         else
             frequency[word.lower()]+=1
+for word in file.c:
+        if word.lower() not in uninteresting_words and word.isalpha()==True:
+            file_w.append(word)
+    frequency={}
+    
