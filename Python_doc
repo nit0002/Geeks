@@ -1,3 +1,5 @@
  for word in file_c:
         if word.lower() not in frequency:
             frequency[word.lower()]=1      
+        else
+            frequency[word.lower()]+=1
